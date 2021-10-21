@@ -3,8 +3,15 @@
   margin-top: 1em;
 }
 
-h1, h2 {
+h1 {
   text-align: center;
+  margin: 1em;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 img {
@@ -20,15 +27,12 @@ img {
   display: block;
 }
 
-#gryffindor {
-  display: none;
+img {
+  margin-bottom: 3em;
 }
-#slytherin {
+
+#gryffindor, #slytherin, #ravenclaw, #hufflepuff, #anyHouse {
   display: none;
-}
-#ravenclaw {
-  display: none;
-}
-#hufflepuff {
-  display: none;
+  text-align: center;
+  margin: 2em;
 }
