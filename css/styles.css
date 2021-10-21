@@ -7,8 +7,28 @@ h1, h2 {
   text-align: center;
 }
 
+img {
+  max-width: auto;
+  height: 400px;
+  margin: auto;
+  display: block;
+}
+
 .btn {
   margin:auto;
   margin-top: 4em;
   display: block;
+}
+
+#gryffindor {
+  display: none;
+}
+#slytherin {
+  display: none;
+}
+#ravenclaw {
+  display: none;
+}
+#hufflepuff {
+  display: none;
 }
