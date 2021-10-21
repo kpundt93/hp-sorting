@@ -1,9 +1,16 @@
 $(document).ready(function() {
   $("#quiz").submit(function(event) {
     event.preventDefault();
+    const name = $("input#name").val();
     const color = $("input:radio[name=color]:checked").val();
     const animal = $("input:radio[name=animal]:checked").val();
     const quality = $("input:radio[name=quality]:checked").val();
+
+    if (name === '') {
+      $('#error').show();
+    } else {
+      $('#error').hide();
+    }
 
     if (color === "red" && animal === "owl" && quality === "loyal") {
       $('#gryffindor').show();
@@ -36,5 +43,7 @@ $(document).ready(function() {
       $('#hufflepuff').hide();
       $('#anyHouse').show();
     }
+
+    $(".name").text(name);
   });
 });

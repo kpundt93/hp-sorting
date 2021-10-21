@@ -16,6 +16,12 @@
     <h2>Take the quiz to find out which Hogwarts house you belong to!</h2>
     <img src="img/houses.png" alt="An image of all four house shields">
 
+    <div class="form-group" id="name">
+      <label for="name">Name:</label>
+      <input id="name" class="form-control" type="text" required>
+      <p id="error">Error! Please enter your name.</p>
+    </div>
+
     <form id="quiz">
       <label class="prompt" for="q1">1. Select your favorite color:</label>
       <div class="radio">
@@ -99,6 +105,7 @@
     </form>
     <div id="gryffindor">
       <img src="img/gryffindor.png" alt="An image of the Gryffindor shield">
+      <p>Congrats <span class="name"></span> you are in Gryffindor</p>
       <p>Traits: Brave, Couragous, Daring, Adventurous</p>
     </div>
     <div id="ravenclaw">
