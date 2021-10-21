@@ -1,0 +1,14 @@
+.prompt {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.btn {
+  margin:auto;
+  margin-top: 4em;
+  display: block;
+}
