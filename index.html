@@ -16,11 +16,13 @@
     <h2>Take the quiz to find out which Hogwarts house you belong to!</h2>
     <img src="img/houses.png" alt="An image of all four house shields">
 
-    <div class="form-group" id="name">
-      <label for="name">Name:</label>
-      <input id="name" class="form-control" type="text" required>
-      <p id="error">Error! Please enter your name.</p>
-    </div>
+    <form id="name">
+      <div class="form-group" id="name">
+        <label for="validationDefault01">Name:</label>
+        <input id="name" class="form-control" type="text" required>
+        <p id="error">Error! Please enter your name.</p>
+      </div>
+    </form>
 
     <form id="quiz">
       <label class="prompt" for="q1">1. Select your favorite color:</label>
@@ -105,19 +107,22 @@
     </form>
     <div id="gryffindor">
       <img src="img/gryffindor.png" alt="An image of the Gryffindor shield">
-      <p>Congrats <span class="name"></span> you are in Gryffindor</p>
+      <p>Congrats <span class="name"></span>! You are in Gryffindor.</p>
       <p>Traits: Brave, Couragous, Daring, Adventurous</p>
     </div>
     <div id="ravenclaw">
       <img src="img/ravenclaw.png" alt="An image of the Ravenclaw shield">
+      <p>Congrats <span class="name"></span>! You are in Ravenclaw.</p>
       <p>Traits: Witty, Intuitive, Quick-thinking, Intelligent</p>
     </div>
     <div id="slytherin">
       <img src="img/slytherin.png" alt="An image of the Slytherin shield">
-      <p>Traits:Goal Oriented, Ambitious, Cunning, Resourceful</p>
+      <p>Congrats <span class="name"></span>! You are in Slytherin!</p>
+      <p>Traits: Goal Oriented, Ambitious, Cunning, Resourceful</p>
     </div>
     <div id="hufflepuff">
       <img src="img/hufflepuff.png" alt="An image of the Hufflepuff shield">
+      <p>Congrats <span class="name"></span>! You are in Hufflepuff!</p>
       <p>Traits: Loyal, Kind, Dependable, Genial</p>
     </div>
     <div id="anyHouse">
