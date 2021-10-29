@@ -2,7 +2,7 @@
 
 #### _A page for a Harry Potter sorting quiz._
 
-#### By _**Michael Watkins**_  _**Katie Pundt**_
+#### By _**Michael Watkins and Katie Pundt**_
 
 ## Technologies Used
 
